@@ -1,4 +1,5 @@
 import './App.css'
+import RandomColor from './component/randomColor'
 import TimerComponent from './component/timer'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div>
         <TimerComponent />
+        <RandomColor />
       </div>
     </>
   )
